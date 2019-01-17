@@ -1,0 +1,14 @@
+{
+  "name": "mt4-mongodb-tocsv",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:YutaMonb/mt4-mongodb-tocsv.git",
+  "author": "yutamonb <yutamonb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.4.4"
+  },
+  "scripts": {
+    "start": "node --max-old-space-size=32768 --trace_gc ./app.js"
+  }
+}
